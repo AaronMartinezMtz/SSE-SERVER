@@ -65,7 +65,7 @@ export class AuthService {
 
 
       const data= {
-
+        status: true,
         user: {
           username: findUser.username,
           fullname: findUser.fullName,
